@@ -28,43 +28,17 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:fcb-investigacion-001@facultad.cl
-SUMMARY:Plazo entrega proyectos FONDECYT Regular
-DESCRIPTION:Fecha límite para entrega de proyectos al concurso FONDECYT Regular 2026.
-DTSTART;TZID=America/Santiago:20260420T170000
-DTEND;TZID=America/Santiago:20260420T170000
-CATEGORIES:DIRECCIÓN DE INVESTIGACIÓN
+UID:fcb-a63ddfa0-f966-4b63-817e-ebbe907a55cf@facultad.cl
+SUMMARY:Proyecto Biobanco UdeC: plataforma de soporte para la investigación biomédica
+DESCRIPTION:Presenta el profesor Sebatián Dubó, Profesor Asociado, Departamento de Kinesiologia, Facultad de Medicina, UdeC
+DTSTART;TZID=America/Santiago:20260508T160000
+DTEND;TZID=America/Santiago:20260508T170000
+CATEGORIES:DIRECCIÓN DE INVESTIGACIÓN FCB
 STATUS:CONFIRMED
-ORGANIZER;CN=Dirección de Investigación FCB:mailto:investigacion@fcb.cl
-LAST-MODIFIED:20260424T120000Z
-DTSTAMP:20260424T120000Z
-END:VEVENT
-
-BEGIN:VEVENT
-UID:fcb-investigacion-002@facultad.cl
-SUMMARY:Coloquio Científico Semestral
-DESCRIPTION:Presentaciones de avances de investigación de grupos y laboratorios.
-DTSTART;TZID=America/Santiago:20260603T090000
-DTEND;TZID=America/Santiago:20260603T180000
-CATEGORIES:DIRECCIÓN DE INVESTIGACIÓN
-STATUS:CONFIRMED
-LOCATION:Auditorio FCB
-ORGANIZER;CN=Dirección de Investigación FCB:mailto:investigacion@fcb.cl
-LAST-MODIFIED:20260424T120000Z
-DTSTAMP:20260424T120000Z
-END:VEVENT
-
-BEGIN:VEVENT
-UID:fcb-investigacion-003@facultad.cl
-SUMMARY:Plazo postulación ANID - Proyectos de Inicio
-DESCRIPTION:Fecha límite para postulación a proyectos de inicio ANID.
-DTSTART;TZID=America/Santiago:20260630T170000
-DTEND;TZID=America/Santiago:20260630T170000
-CATEGORIES:DIRECCIÓN DE INVESTIGACIÓN
-STATUS:CONFIRMED
-ORGANIZER;CN=Dirección de Investigación FCB:mailto:investigacion@fcb.cl
-LAST-MODIFIED:20260424T120000Z
-DTSTAMP:20260424T120000Z
+LOCATION:Hilda Cid
+ORGANIZER;CN=Dirección de Investigación FCB:mailto:dirinvestigfcb@udec.cl
+LAST-MODIFIED:20260427T193935Z
+DTSTAMP:20260427T193935Z
 END:VEVENT
 
 END:VCALENDAR
