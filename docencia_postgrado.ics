@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Facultad de Ciencias Biológicas//Dirección de Docencia de Postgrado FCB//ES
+X-WR-CALNAME:Dirección de Docencia de Postgrado FCB
+X-WR-CALDESC:Calendario de Dirección de Docencia de Postgrado FCB - Facultad de Ciencias Biológicas
+X-WR-TIMEZONE:America/Santiago
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+
+BEGIN:VTIMEZONE
+TZID:America/Santiago
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0400
+TZNAME:CLT
+DTSTART:19700405T000000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0300
+TZNAME:CLST
+DTSTART:19701011T000000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=10
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:fcb-docencia_postgrado-001@facultad.cl
+SUMMARY:Plazo postulación Magíster - 2do semestre
+DESCRIPTION:Fecha límite para recepción de postulaciones a programas de Magíster.
+DTSTART;TZID=America/Santiago:20260430T170000
+DTEND;TZID=America/Santiago:20260430T170000
+CATEGORIES:DIRECCIÓN DE DOCENCIA DE POSTGRADO
+STATUS:CONFIRMED
+ORGANIZER;CN=Dirección de Docencia de Postgrado FCB:mailto:docencia.postgrado@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fcb-docencia_postgrado-002@facultad.cl
+SUMMARY:Plazo postulación Doctorado - 2do semestre
+DESCRIPTION:Fecha límite para postulaciones al programa de Doctorado.
+DTSTART;TZID=America/Santiago:20260515T170000
+DTEND;TZID=America/Santiago:20260515T170000
+CATEGORIES:DIRECCIÓN DE DOCENCIA DE POSTGRADO
+STATUS:CONFIRMED
+ORGANIZER;CN=Dirección de Docencia de Postgrado FCB:mailto:docencia.postgrado@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fcb-docencia_postgrado-003@facultad.cl
+SUMMARY:Coloquio de Estudiantes de Doctorado
+DESCRIPTION:Coloquio semestral de avances de tesis.
+DTSTART;TZID=America/Santiago:20260605T090000
+DTEND;TZID=America/Santiago:20260605T170000
+CATEGORIES:DIRECCIÓN DE DOCENCIA DE POSTGRADO
+STATUS:CONFIRMED
+LOCATION:Auditorio FCB
+ORGANIZER;CN=Dirección de Docencia de Postgrado FCB:mailto:docencia.postgrado@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+END:VCALENDAR

@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Facultad de Ciencias Biológicas//Dirección de Extensión y Vinculación FCB//ES
+X-WR-CALNAME:Dirección de Extensión y Vinculación FCB
+X-WR-CALDESC:Calendario de Dirección de Extensión y Vinculación FCB - Facultad de Ciencias Biológicas
+X-WR-TIMEZONE:America/Santiago
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+
+BEGIN:VTIMEZONE
+TZID:America/Santiago
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0400
+TZNAME:CLT
+DTSTART:19700405T000000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0300
+TZNAME:CLST
+DTSTART:19701011T000000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=10
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:fcb-extension_vinculacion-001@facultad.cl
+SUMMARY:Jornada de Puertas Abiertas
+DESCRIPTION:Jornada anual para estudiantes secundarios interesados en las carreras de la Facultad.
+DTSTART;TZID=America/Santiago:20260508T090000
+DTEND;TZID=America/Santiago:20260508T170000
+CATEGORIES:DIRECCIÓN DE EXTENSIÓN Y VINCULACIÓN CON EL MEDIO
+STATUS:CONFIRMED
+LOCATION:Campus Universitario - Edificio FCB
+ORGANIZER;CN=Dirección de Extensión y Vinculación FCB:mailto:extension@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fcb-extension_vinculacion-002@facultad.cl
+SUMMARY:Reunión con empresas del sector biotecnológico
+DESCRIPTION:Encuentro entre académicos y representantes del sector privado.
+DTSTART;TZID=America/Santiago:20260527T100000
+DTEND;TZID=America/Santiago:20260527T130000
+CATEGORIES:DIRECCIÓN DE EXTENSIÓN Y VINCULACIÓN CON EL MEDIO
+STATUS:CONFIRMED
+LOCATION:Sala de Consejo - Decanatura FCB
+ORGANIZER;CN=Dirección de Extensión y Vinculación FCB:mailto:extension@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fcb-extension_vinculacion-003@facultad.cl
+SUMMARY:Charla abierta: Biodiversidad y Cambio Climático
+DESCRIPTION:Charla pública abierta a toda la comunidad universitaria.
+DTSTART;TZID=America/Santiago:20260619T180000
+DTEND;TZID=America/Santiago:20260619T200000
+CATEGORIES:DIRECCIÓN DE EXTENSIÓN Y VINCULACIÓN CON EL MEDIO
+STATUS:CONFIRMED
+LOCATION:Auditorio FCB
+ORGANIZER;CN=Dirección de Extensión y Vinculación FCB:mailto:extension@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+END:VCALENDAR

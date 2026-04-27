@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Facultad de Ciencias Biológicas//Dirección de Docencia de Pregrado FCB//ES
+X-WR-CALNAME:Dirección de Docencia de Pregrado FCB
+X-WR-CALDESC:Calendario de Dirección de Docencia de Pregrado FCB - Facultad de Ciencias Biológicas
+X-WR-TIMEZONE:America/Santiago
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+
+BEGIN:VTIMEZONE
+TZID:America/Santiago
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0400
+TZNAME:CLT
+DTSTART:19700405T000000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0300
+TZNAME:CLST
+DTSTART:19701011T000000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=10
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:fcb-docencia_pregrado-001@facultad.cl
+SUMMARY:Inicio período de exámenes finales - 1er semestre
+DESCRIPTION:Comienzo oficial del período de exámenes finales del primer semestre 2026.
+DTSTART;TZID=America/Santiago:20260615T080000
+DTEND;TZID=America/Santiago:20260630T200000
+CATEGORIES:DIRECCIÓN DE DOCENCIA DE PREGRADO
+STATUS:CONFIRMED
+ORGANIZER;CN=Dirección de Docencia de Pregrado FCB:mailto:docencia.pregrado@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fcb-docencia_pregrado-002@facultad.cl
+SUMMARY:Plazo entrega de notas - 1er semestre
+DESCRIPTION:Fecha límite para entrega de notas finales en el sistema académico.
+DTSTART;TZID=America/Santiago:20260710T170000
+DTEND;TZID=America/Santiago:20260710T170000
+CATEGORIES:DIRECCIÓN DE DOCENCIA DE PREGRADO
+STATUS:CONFIRMED
+ORGANIZER;CN=Dirección de Docencia de Pregrado FCB:mailto:docencia.pregrado@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fcb-docencia_pregrado-003@facultad.cl
+SUMMARY:Inicio 2do semestre
+DESCRIPTION:Inicio oficial de clases del segundo semestre 2026.
+DTSTART;TZID=America/Santiago:20260803T080000
+DTEND;TZID=America/Santiago:20260803T200000
+CATEGORIES:DIRECCIÓN DE DOCENCIA DE PREGRADO
+STATUS:CONFIRMED
+ORGANIZER;CN=Dirección de Docencia de Pregrado FCB:mailto:docencia.pregrado@fcb.cl
+LAST-MODIFIED:20260424T120000Z
+DTSTAMP:20260424T120000Z
+END:VEVENT
+
+END:VCALENDAR
