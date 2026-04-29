@@ -28,17 +28,17 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:fcb-a63ddfa0-f966-4b63-817e-ebbe907a55cf@facultad.cl
-SUMMARY:Proyecto Biobanco UdeC: plataforma de soporte para la investigación biomédica
-DESCRIPTION:Presenta el profesor Sebatián Dubó, Profesor Asociado, Departamento de Kinesiologia, Facultad de Medicina, UdeC
+UID:fcb-1e0a6139-79bc-42f6-b95b-d47188f1642f@facultad.cl
+SUMMARY:Proyecto Biobanco UdeC: Plataforma de soporte para la investigación Biomédica (Ciclo de charlas "Ciencia en primera persona")
+DESCRIPTION:Ciclo de charlas "Ciencia en primera persona"
 DTSTART;TZID=America/Santiago:20260508T160000
 DTEND;TZID=America/Santiago:20260508T170000
 CATEGORIES:DIRECCIÓN DE INVESTIGACIÓN FCB
 STATUS:CONFIRMED
-LOCATION:Hilda Cid
+LOCATION:Auditorio Dra. Hilda Cid
 ORGANIZER;CN=Dirección de Investigación FCB:mailto:dirinvestigfcb@udec.cl
-LAST-MODIFIED:20260427T193935Z
-DTSTAMP:20260427T193935Z
+LAST-MODIFIED:20260429T131723Z
+DTSTAMP:20260429T131723Z
 END:VEVENT
 
 END:VCALENDAR
